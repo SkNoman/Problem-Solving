@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include<stdio.h>//header file
 
-int displayPiramid(int n,int space,int star,int flag){
+int displayPiramid(int n,int space,int star,int flag)
+{
 
     int count1 = 0;
     int count2 = 0;
