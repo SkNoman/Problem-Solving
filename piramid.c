@@ -59,6 +59,6 @@ int main()
     {
         int sum1 = displayPiramid(n-1,space,1,1);
         int sum2 = displayPiramid(n,1,n+n-1,0);
-        printf("Total line of star's = %d\n",sum1+sum2);
+        printf("Total printed star is = %d\n",sum1+sum2);
     }
 }
