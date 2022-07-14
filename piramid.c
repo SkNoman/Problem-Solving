@@ -55,10 +55,9 @@ int main()
     printf("Enter a number!\n");
     scanf("%d",&n);
     space = n;
-    for(int i = 0;i<1;i++)
-    {
-        int sum1 = displayPiramid(n-1,space,1,1);
-        int sum2 = displayPiramid(n,1,n+n-1,0);
-        printf("Total printed star is = %d\n",sum1+sum2);
-    }
+
+    int sum1 = displayPiramid(n-1,space,1,1);
+    int sum2 = displayPiramid(n,1,n+n-1,0);
+    printf("Total printed star is = %d\n",sum1+sum2);
+
 }
